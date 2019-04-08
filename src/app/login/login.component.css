@@ -1,0 +1,211 @@
+
+.logo{
+   font-family: "Playfair Display";
+   color: #83677B;
+   flex: 1;
+   font-size: 70px;
+   padding: 18px;
+
+   text-transform: uppercase;
+ }
+ .logo:hover,.logo:focus{
+   color:#adadad;
+   cursor: pointer;
+   transition: 0.2s ease;
+ }
+body{
+
+   background-image:url("src\assets\images\backgd_register.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   /*background-position: center;*/
+}
+
+.login-container{
+  /*display: flex;*/
+  position: absolute;
+  /*margin:5% auto;*/
+  width: 600px;
+  height: 400px;
+
+  background:rgba(0,0,0,0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  /*background:#fff;*/
+  box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.login-container:hover,	.login-container:focus{
+  transition: 0.4s ease;
+}
+
+.leftbox{
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+h1{
+  margin: 0 0 15px 0;
+  font-weight: 300;
+  font-size: 28px;
+  color: #fff;
+}
+input[type="text"]{
+      display: flex;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      padding:4px;
+      width:220px;
+      height :32px;
+      border:none;
+      outline:none;
+      border-bottom:1px solid #aaa;
+      font-family:sans serif;
+      font-weight:400;
+      font-size:15px;
+      transition:0.2s ease;
+}
+ input[type="password"]{
+    display: flex;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      padding:4px;
+      width:220px;
+      height :32px;
+      border:none;
+      outline:none;
+      border-bottom:1px solid #aaa;
+      font-family:sans serif;
+      font-weight:400;
+      font-size:15px;
+      transition:0.2s ease;
+}
+  input[type="submit"]{
+  margin-bottom:28px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 27px;
+  background:#702225;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+input[type="submit"]:hover,input[type="submit"]:focus
+{
+    background: #aa050a;
+    transition: 0.2s ease;
+}
+.or{
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #efefef;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  line-height: 40px;
+  text-align: center;
+
+}
+.or2{
+  position: absolute;
+  top: 138px;
+
+  left: 140px;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  background: #efefef;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  line-height: 30px;
+  text-align: center;
+}
+.rightbox{
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background-image: url("src\assets\images\backgd4.png");
+  /*filter: blur(1px);
+  -webkit-filter:blur(1px);*/
+  background-size: cover;
+  background-position: center;
+
+}
+.rightbox .register-or-signinwith{
+  display: block;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+button.social{
+  margin-top: 20px;
+  /*margin-bottom: 15px;*/
+  width: 250px;
+  height: 30px;
+  border:none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.Facebook{
+  background:#28457f;
+}
+.Facebook:hover,.Facebook:focus{
+  background:#0338a3;
+  transition: 0.2s ease;
+}
+.Twitter{
+  background:#4391cc;
+}
+.Twitter:hover,.Twitter:hover{
+  background:#2684cc;
+  transition: 0.2s ease;
+}
+.Google{
+  background:#dd4b39;
+}
+.Google:hover,.Google:focus{
+  background:#ff1b00;
+  transition: 0.2s ease;
+}
+
+
+button.register{
+  width: 200px;
+  height: 38px;
+  margin-left: 20px;
+  border:none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  color: #fff;
+  background: #702225;
+  font-family: sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+button.register:hover,button.register:focus{
+  background: /*#b7565a#7a00048*/#aa050a;
+  transition: 0.2s ease;
+}
